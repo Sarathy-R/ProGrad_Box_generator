@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="top">
+            <div>
+                <input type="text" placeholder="Enter the number of boxes" id='boxes'>
+                <span>Chose a color:<span>
+                        <input type="color" id="color">
+            </div>
+            <div>
+                <button class="button" onclick='Generate()'>Generate!!</button>
+                <button class="button" onclick='remove()'>Remove</button>
+            </div>
+        </div>
+
+
+        <div id="boxes-section">
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="./app.js"></script>
